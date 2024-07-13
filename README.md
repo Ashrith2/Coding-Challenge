@@ -122,3 +122,18 @@ Ensure you have the following installed:
    ```sh
    git clone https://github.com/YourUsername/TaskManager.git
    cd TaskManager
+
+
+## Total Time Spent on Project + Feedback
+- I have spent approximately 12 hours completing this task. This time included:
+
+- Preparation
+- Documentation
+- Background study
+- Coding
+- Testing
+- Resolving issues
+- Feedback
+```
+The challenge was engaging and provided a good opportunity to showcase my skills. However, there were some challenges with integrating different parts of the system and ensuring smooth functionality, which added to the time spent.
+```
