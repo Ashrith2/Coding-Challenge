@@ -134,6 +134,6 @@ Ensure you have the following installed:
 - Testing
 - Resolving issues
 - Feedback
-```
+
 The challenge was engaging and provided a good opportunity to showcase my skills. However, there were some challenges with integrating different parts of the system and ensuring smooth functionality, which added to the time spent.
-```
+
