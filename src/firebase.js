@@ -1,18 +1,18 @@
-import { initializeApp } from "firebase/app";
-import { getFirestore, collection } from "firebase/firestore";
-import { getAuth, onAuthStateChanged } from "firebase/auth";
+import { initializeApp } from 'firebase/app';
+import { getAuth } from 'firebase/auth';
+import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCR6AWu4qdleogF_0DlBPkhNAlIpwRJGu0",
-    authDomain: "task-manager-8e686.firebaseapp.com",
-    projectId: "task-manager-8e686",
-    storageBucket: "task-manager-8e686.appspot.com",
-    messagingSenderId: "141509948128",
-    appId: "1:141509948128:web:f1533a0550b2fc99219685"
+    apiKey: "YOUR_API_KEY",
+    authDomain: "YOUR_AUTH_DOMAIN",
+    projectId: "YOUR_PROJECT_ID",
+    storageBucket: "YOUR_STORAGE_BUCKET",
+    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+    appId: "YOUR_APP_ID"
 };
 
 const app = initializeApp(firebaseConfig);
-const db = getFirestore(app);
-const auth = getAuth(app);
+export const auth = getAuth(app);
+export const db = getFirestore(app);
 
 export { db, auth, onAuthStateChanged, collection };
