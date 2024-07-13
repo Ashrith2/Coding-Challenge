@@ -14,14 +14,14 @@ A task management application built with React Native and Firebase.
 
 ## Setup
 
--Install the dependencies:
+Install the dependencies:
 `
 npm install
 `
 - Create a Firebase project at Firebase Console.
 - Add a web app to your Firebase project.
 - Copy the Firebase config object.
-- Create a firebase.js file in the root of your project and paste the Firebase config:
+- update the firebase.js file in the root of your project and paste the Firebase config:
 - add the credentials you get from firebase.
 ```
 import { initializeApp } from 'firebase/app';
